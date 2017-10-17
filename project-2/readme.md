@@ -15,3 +15,11 @@
 
 
 **Improvements** - I'm still trying to get use to the preview on atom vs the published website. I feel like my structure is better this time around, however working between forms in the directory can be confusing. I guess it's all part of the learning curve!
+
+# Instructable Read.me Part 3
+
+## Ellen Morningstar (Kearns)
+
+**Overview** - I'm glad we have finished up this project, I did enjoy learning everything, but my brain is officially exhausted. I enjoyed learning how to frame audio/video and maps this is very useful! However, Atom has proven to be quite challenging with it's on-again, off-again attitude if it wants you to see a successful preview!
+
+**Improvements** - Coding...in general, it makes me feel old. As much as it pains me to have to code, I really do wish I could be better at it. I seem to struggle and even though the struggle is all a means of learning, struggling can be frustrating!
