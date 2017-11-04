@@ -1,1 +1,40 @@
-style.css
+* {
+    font-family: 'Oswald';
+}
+
+.second-font {
+    font-family: 'Indie Flower'
+}
+
+/* gray tone for background */
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 44, 48);
+}
+
+/* True White for Title's */
+.color-title {
+    color: rgb(255, 255, 255);
+}
+
+/* Red for outlines and important text */
+.color-important {
+    color: rgb(216, 47, 50)
+}
+
+/* Beige for reviews */
+.color-reviews {
+    color: rgb(247, 226, 181)
+}
+
+.text-element {
+    font-size: 1.5en;
+    text-indent: 30px;
+}
+.text-element::first-letter {
+    color: red;
+    font-weight: bolder;
+}
+.text-element::first-line {
+    background-color: rgb(43, 44, 48);
+}
