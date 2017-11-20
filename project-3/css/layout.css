@@ -17,7 +17,7 @@
     padding: 0.5em 1em;
     text-align: center;
     text-decoration: none;
-    color: rgb(216, 47, 50);
+    color: #F15F50;
 }
 .menu-container .dropdown {
     display: inline-block;
@@ -27,17 +27,17 @@
 .menu-container .menuitem:hover,
 .menu-container .dropdown:hover {
     color: #fff;
-    background-color: rgb(216, 47, 50);
+    background-color: #F15F50;
 }
 
 /* This styles the dropdown list of the menu:*/
 .menu-container .dropdown-content {
     display: none;
     position: absolute;
-    border: 3px dashed rgb(247, 226, 181);
+    border: 3px dashed #27435C;
     margin: 0;
     color: #000;
-    background-color: rgb(216, 47, 50);
+    background-color: #fff;
     z-index: 1;
 }
 .menu-container .dropdown-content a {
@@ -56,7 +56,7 @@
 }
 .dropdown-item:hover, .dropdown-item:hover a {
     color: #fff;
-    background-color: rgb(216, 47, 50);
+    background-color: #F15F50;
 }
 
 
@@ -68,7 +68,7 @@
 /* Lines 69-73 style the bar itself: */
 .lower-header {
     margin: 0;
-    background-color: rgb(216, 47, 50);
+    background-color: #F15F50;
     display: inline-block;
     width: 100%;
 }

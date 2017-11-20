@@ -4,40 +4,62 @@
    <title>Contact Us</title>
    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="../css/style-contact.css">
  </head>
+
  <body>
    <header>
-     <h1 class="color-title">Contact Us!</h1>
-       <img src="../images/contactus.jpg" alt="Hey You!" title="We've got your advice" width="653" height="294" />
-   </header>
-     <h2 class="color-reviews">YOU KNOW YOU WANT TO!</h2></br>
-         <form action="https://www.example.com/subscribe"
-         method="get" id="subscribe" class="basic-forms">
-         <h3>Tell Us Your Name!</h3>
-         <p>
-           Name:
-           <input type="text" name="username" id="username-input" />
-         </p>
-         <hr/>
-         <h3>Yo! What's Your Email?</h3>
-         <p>
-           Email:
-           <input type="text" email="email" id="email-input" />
-         </p>
-         <hr/>
-         <h3>Well! What do you want to know?</h3>
-         <textarea name"comments" style="min-width:100%">
-            Yo What's Up!
-         </textarea>
-       </form>
+     <div class="main-container">
+      <menu>
+         <div class="site-name">
+            The Co-Hosts
+         </div>
+         <div class="side-menu-item">
+            <a href="#" class="side menuitem">
+               Home</a>
 
+            <div class="side dropdown">
+               <a href="#" class="side menuitem">
+                  + Navigation</a>
 
+               <div class="dropdown-content">
+                  <a href="#" class="side menuitem dropdown-item">
+                     About</a>
+                  <a href="#" class="side menuitem dropdown-item">
+                     Sample</a>
+               </div>
+            </div>
 
-    <ul id="nav-list">
-      <li><a class="color-important" href="./index.html">Home</a></li>
-      <li><a class="color-important" href="./pages/sample.html">Sample</a></li>
-      <li><a class="color-important" href="./pages/about.html">About</a></li>
-    </ul>
- </body>
+            <a href="#" class="side menuitem">
+               The Book</a>
+         </div>
+      </menu>
+
+      <main>
+        <h1 class="color-title">Contact Us!</h1>
+          <img src="../images/contactus.jpg" alt="Hey You!" title="We've got your advice" width="653" height="294" />
+        <h2 class="color-reviews">YOU KNOW YOU WANT TO!</h2></br>
+            <form action="https://www.example.com/subscribe"
+              method="get" id="subscribe" class="basic-forms">
+        <h3>Tell Us Your Name!</h3>
+          <p>
+             Name:
+             <input type="text" name="username" id="username-input" />
+          </p>
+        <hr/>
+        <h3>Yo! What's Your Email?</h3>
+          <p>
+             Email:
+             <input type="text" email="email" id="email-input" />
+          </p>
+        <hr/>
+        <h3>Well! What do you want to know?</h3>
+            <textarea name"comments" style="min-width:100%">
+                Yo What's Up!
+            </textarea>
+          </form>
+      </main>
+    </div>
+  </body>
 </html>

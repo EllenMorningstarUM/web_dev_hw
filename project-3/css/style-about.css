@@ -1,40 +1,101 @@
-* {
-    font-family: 'Oswald';
+.main-container {
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    min-width: 600px;
+    max-width: 1280px;
+    background-color: #fff;
+    clear: both;
 }
 
-.second-font {
-    font-family: 'Indie Flower'
+.main-container menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 25%;
+    height: 1000px;
+    background-color: rgb(216, 47, 50);
 }
 
-/* gray tone for background */
-body {
-    color: rgb(255, 255, 255);
+.site-name {
+    padding: 1em 0.5em;
+    margin-left: 0;
+    color: #fff;
+    background-color: rgb(216, 47, 50);
+}
+
+.site-logo {
+    margin: 0 auto;
+    width: 75%;
+    text-align: right;
+}
+
+.site-logo img {
+    height: 80px;
+    margin-top: -25px;
+    margin-right: -20px;
+}
+
+.side.menuitem {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.1em 0;
+    text-decoration: none;
+    background-color: rgb(43, 44, 48);
+    color: #fff;
+}
+
+.side.menuitem:hover {
+    background-color: rgb(216, 47, 50);
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.side.menuitem.dropdown-item {
+    font-size: 0.8em;
+    padding-left: 2em;
+    margin-top: 0.05em;
+    background-color: rgb(247, 226, 181);
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content .side.menuitem.dropdown-item:hover {
+    background-color: #fff;
+    color: rgb(43, 44, 48);
+}
+
+.main-container main {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 75%;
+    min-width: 399px;
+    height: 100%;
     background-color: rgb(43, 44, 48);
 }
 
-/* True White for Title's */
-.color-title {
-    color: rgb(255, 255, 255);
+.main-container h1 {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    padding: 2em 0 0 0;
+    margin-top: 0 !important;
 }
 
-/* Red for outlines and important text */
-.color-important {
-    color: rgb(216, 47, 50)
-}
-
-/* Beige for reviews */
-.color-reviews {
-    color: rgb(247, 226, 181)
-}
-
-.text-element {
-    font-size: 1.5en;
-    text-indent: 30px;
-}
-.text-element::first-letter {
-    color: red;
-    font-weight: bolder;
-}
-.text-element::first-line {
-    background-color: rgb(43, 44, 48);
+.main-container p {
+    padding: 2em;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: rgb(247, 226, 181);
+    margin-top: 0;
 }
