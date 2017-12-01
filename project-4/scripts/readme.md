@@ -15,6 +15,6 @@
 
 This is the layout I wanted, but couldn't achieve with the ordering.
 
-  ![Mobile Size](.images/mobile.png)
-  ![Medium Size](.images/medium.png)
-  ![Large Size](.images/large.png)
+![Mobile Size](..images/mobile.png)
+![Medium Size](..images/medium.png)
+![Large Size](..images/large.png)
