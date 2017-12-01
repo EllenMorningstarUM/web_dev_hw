@@ -9,12 +9,16 @@
    the box that holds the information.
 
 3. The primary content is the 3 boxes that hold information.
-
+4.
 4. The secondary content is a spiraled background, which is usually how
    my brain looks after this class!
 
 This is the layout I wanted, but couldn't achieve with the ordering.
 
-![Mobile Size](..images/mobile.png)
-![Medium Size](..images/medium.png)
-![Large Size](..images/large.png)
+![Mobile Size](../images/mobile.png)
+
+
+![Medium Size](../images/medium.png)
+
+
+![Large Size](../images/large.png)
